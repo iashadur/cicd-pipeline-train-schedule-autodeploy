@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/<your-username>/cicd-pipeline-train-schedule-autodeploy.git'
+                git 'https://github.com/iashadur/cicd-pipeline-train-schedule-autodeploy.git'
             }
         }
         stage('Build Docker Image') {
